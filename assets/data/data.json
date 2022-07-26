@@ -1,0 +1,391 @@
+{
+  "title": {
+    "en": "Curate Your Own Art Game",
+    "fr": "Commissariez Votre Propre Art Game"
+  },
+  "author": "Pippin Barr",
+  "passages": [
+    {
+      "number": "1",
+      "text": {
+        "en": "You are Pippin Barr, an experimental game designer who works as a Professor of Computation Arts at Concordia University. You're interested in thinking about how games express ideas, even about themselves! Lately, you've started a project in Unity called <em>v r $4.99</em>, an exhibition of videogame art assets in the Sahara Desert. You're buying assets from the Unity Asset Store, installing them into the desert landscape, and reflecting on what it all means. On a piece of paper beside you are two lists, an \"inventory of ideas\" and an \"inventory of assets,\" so that you can keep track of today's work.",
+        "fr": "Vous êtes Pippin Barr, un concepteur de jeux expérimentaux qui travaille comme professeur d'arts numériques à l'Université Concordia. Vous souhaitez réfléchir à la façon dont les jeux expriment des idées, même sur eux-mêmes ! Dernièrement, vous avez lancé un projet dans Unity intitulé v r $4.99, une exposition d'assets de jeux vidéo dans le désert du Sahara. Vous achetez des assets sur Unity Asset Store, vous les installez dans le paysage désertique et vous réfléchissez à ce que tout cela signifie. Sur une feuille de papier à côté de vous se trouvent deux listes, un «inventaire d'idées» et un «inventaire d'assets», afin que vous puissiez suivre le travail de la journée."
+      },
+      "options": [
+        {
+          "en": "To reflect on your vision for <em>v r $4.99</em>, go to 11.",
+          "fr": "Pour réfléchir à votre vision pour <em>v r $4,99</em>, allez à 11."
+        },
+        {
+          "en": "To sit down at your computer and get to work, go to 14.",
+          "fr": "Pour vous asseoir devant votre ordinateur et vous mettre au travail, allez à 14."
+        }
+      ],
+      "end": false
+    },
+    {
+      "number": "2",
+      "text": {
+        "en": "The moon base fits nicely at one edge of the desert, but there's a problem. The model has appealing interior spaces you see inspect via Unity's interface, but there's no way to get inside. The airlocks don't open, and the corridors have no solid floors: a player would just fall straight through. Without significant additional work to make the moon base \"habitable,\" most of the model will be impossible to see. It reminds you of the air conditioning ducts on the roof of the Super Store you installed, but at least you could see those from the top of a nearby dune. This Moon Base is a bust.",
+        "fr": "La base lunaire s'adapte aisément à l'un des bords du désert, mais il y a un problème. Le modèle présente des espaces intérieurs attrayants que vous pouvez inspecter via l'interface de Unity, mais il n'y a aucun moyen d'y pénétrer. Les sas ne s'ouvrent pas et les couloirs n'ont pas de planchers solides : un joueur tomberait tout droit au travers. Sans travaux supplémentaires importants pour rendre la base lunaire «habitable», la plus grande partie du modèle sera impossible à voir. Cela vous rappelle les conduits de climatisation sur le toit du Super Store que vous avez installé, mais au moins vous pouviez les voir du haut d'une dune voisine. Cette base lunaire est un fiasco."
+      },
+      "idea": {
+        "en": "not all assets are exhibition-ready",
+        "fr": "tous les <em>assets</em> ne sont pas prêts à être exposés"
+      },
+      "options": [
+        {
+          "en": "Swear loudly, and go to 14.",
+          "fr": "Sacrez haut et fort, et allez à 14."
+        }
+      ],
+      "end": false
+    },
+    {
+      "number": "3",
+      "text": {
+        "en": "You come across an empty pedestal. Its informational plinth announces it is \"Seagull (Larus canus)\" by Junnichi Suko (2018), but there's no seagull here. That's because it has wandered away: it shares the same controls as your avatar. When you move, it moves. While you were installing this seagull you agonized for hours over this: how could you make sure the seagull stayed on its plinth but still exhibit its dynamic, interactive nature? In the end, your wife Rilla suggested just to let the seagull be itself, so now it wanders the desert much as you do.",
+        "fr": "Vous tombez sur un socle vide. Sa plaque de présentation indique qu'il s'agit de «Seagull (Larus canus)» de Junnichi Suko (2018), mais il n'y a pas de mouette ici. C'est parce qu'elle s'est aventurée ailleurs : elle partage les mêmes contrôles que votre avatar. Pendant que vous installiez cette mouette, vous vous êtes creusé la tête pendant des heures : comment faire en sorte qu'elle demeure sur son socle tout en affichant sa nature dynamique et interactive ? Finalement, votre femme Rilla a suggéré de laisser la mouette être elle-même, et maintenant cet oiseau erre dans le désert tout comme vous."
+      },
+      "idea": {
+        "en": "you don't always have to be in control",
+        "fr": "vous n'êtes pas obligé de toujours tout contrôler"
+      },
+      "options": [
+        {
+          "en": "Return to 5.",
+          "fr": "Retournez à 5."
+        }
+      ],
+      "end": false
+    },
+    {
+      "number": "4",
+      "text": {
+        "en": "Here's the store page for \"Humanoid Creatures Pack\" by Maksim Bugrimov (2020). One of the first things you see is a video of the creatures in action: a row of five genuinely gruesome monsters against a grey background... dancing? No, they're demonstrating their animations, from jumping, to falling, to slashing their claws in the air, but all in perfect synchrony. The comedic contrast between the frightening character models and their apparent zest for dance really makes this one work. You need it.",
+        "fr": "Voici la page pour «Humanoid Creatures Pack» de Maksim Bugrimov (2020). L'une des premières choses que l'on voit est une vidéo des créatures en action : une rangée de cinq monstres vraiment horribles sur un fond gris... dansant ? Non, ils font la démonstration de leurs animations, du saut, à la chute, en passant par les coups de griffes en l'air, mais le tout en parfaite synchronisation. Le contraste comique entre les modèles de personnages effrayants et leur engouement apparent pour la danse rend cet asset vraiment efficace. Vous en avez besoin."
+      },
+      "idea": {
+        "en": "demo mode is performance art",
+        "fr": "mode démo, c'est de l'art performatif"
+      },
+      "options": [
+        {
+          "en": "To investigate Maksim Bugrimov further, go to 6.",
+          "fr": "Pour enquêter davantage sur Maksim Bugrimov, allez à 6."
+        },
+        {
+          "en": "To buy the pack, <span class=\"action\">add \"Humanoid Creatures Pack\" to your inventory of assets, cross out this option</span>, then go to 19.",
+          "fr": "Pour acheter le paquet, <span class=\"action\">ajoutez «Humanoid Creatures Pack» à vote inventaire d'<em>assets</em>, biffer cette option</span>, puis passez à 19"
+        },
+        {
+          "en": "To switch tasks, go to 14.",
+          "fr": "Pour changer de tâches, allez à 14."
+        }
+      ],
+      "end": false
+    },
+    {
+      "number": "5",
+      "text": {
+        "en": "Your avatar stands on the rippling dunes of the Sahara Desert. A bright virtual sun (a directional light set to a hexadecimal colour of #FFD563 and a rotation of [41.72, 55.7, 179.054]) blazes above, throwing long shadows across the sand.",
+        "fr": "Votre avatar est debout sur les dunes ondulantes du désert du Sahara. Un soleil virtuel brillant (un jeu d'éclairage directionnel réglé à une couleur hexadécimale de #FFD563 et à une rotation de [41.72, 55.7, 179.054]) flamboie au-dessus, projetant de longues ombres sur le sable."
+      },
+      "options": [
+        {
+          "en": "To examine the desert itself, go to 13.",
+          "fr": "Pour observer le désert lui-même, allez à 13."
+        },
+        {
+          "en": "  To wander the desert, go to one of 3, 17, 20.",
+          "fr": "Pour parcourir le désert, faites un choix entre 3, 17, 20."
+        },
+        {
+          "en": "To stop the game, go to 14.",
+          "fr": "Pour arrêter le jeu, allez à 14."
+        }
+      ],
+      "end": false
+    },
+    {
+      "number": "6",
+      "text": {
+        "en": "You click on Bugrimov's name and are rewarded with a listing of his other work on the Asset Store. There's everything from skeletons to Sci-Fi characters to \"Dead Man,\" a gruesome and bloody body in a bag. Clearly, Maksim is a fan of the macabre. His oeuvre implies an apocalyptic future universe where Really Bad Things have been happening. You're here for it. He seems to have a fondness for PBR (Physically Based Rendering) textures that catch the light just so and strongly evoke the physicality of objects and animals.",
+        "fr": "Vous cliquez sur le nom de M. Bugrimov et vous obtenez une liste de ses autres travaux sur le Asset Store. On y trouve de tout, des squelettes aux personnages de science-fiction en passant par «Dead Man», un corps horrible et sanglant dans un sac. De toute évidence, Maksim est un fan du macabre. Son œuvre suggère l'univers d'un futur apocalyptique où de Très Mauvaises Choses se sont produites. Vous êtes ici pour ça. Il semble avoir une prédilection pour les textures PBR - Physically Based Rendering (rendu physique réaliste) qui captent la lumière de manière très précise et évoquent fortement le caractère physique des objets et des animaux."
+      },
+      "idea": {
+        "en": "asset makers are artists",
+        "fr": "les fabricants d'<em>assets</em> sont des artistes"
+      },
+      "options": [
+        {
+          "en": "To blink and return to the asset store page for Bugrimov's creatures, go to 4.",
+          "fr": "Pour cligner des yeux et retourner à la page du Asset Store pour les créatures de Bugrimov, allez à 4."
+        }
+      ],
+      "end": false
+    },
+    {
+      "number": "7",
+      "text": {
+        "en": "Going by its screenshots, \"Moon Base 2030\" by Evgeny Pritula (2018) is an impressively detailed base with different rooms, airlocks, equipment, and more. All this for only $4.99 seems almost too good to be true and it's a great fit for the \"3D > Environments > Sci-Fi\" category. The description that Evgeny has written is a little basic (\"Unity 3D model. Moon Base with simple interior\"), but why not.",
+        "fr": "Si l'on en croit ses captures d'écran, «Moon Base 2030» d'Evgeny Pritula (2018) est une base aux détails impressionnants, avec différentes pièces, sas, équipements, etc. Tout cela pour seulement 4,99$ semble presque trop beau pour être vrai et c'est très bien adapté pour la catégorie «3D > Environments > Sci-Fi». La description qu'Evgeny a écrite est un peu sommaire («Modèle 3D Unity. Base lunaire avec intérieur simple»), mais pourquoi pas."
+      },
+      "options": [
+        {
+          "en": "To buy the pack, <span class=\"action\">add \"Moon Base 2030\" to your inventory of assets, cross out this option</span>, then go to 19.",
+          "fr": "Pour acheter le paquet, <span class=\"action\">ajoutez «Moon Base 2030» à votre inventaire d'assets, biffer cette option</span>, et allez à 19."
+        },
+        {
+          "en": "To switch tasks, go to 14.",
+          "fr": "Pour changer de tâches, allez à 14."
+        }
+      ],
+      "end": false
+    },
+    {
+      "number": "8",
+      "text": {
+        "en": "With Unity's Package Manager open, you prepare to add one of the assets you've purchased but haven't yet installed.",
+        "fr": "En gardant le Package Manager de Unity ouvert, vous vous préparez à ajouter l'un des assets que vous avez achetés mais pas encore installés."
+      },
+      "options": [
+        {
+          "en": "If \"Humanoid Creatures Pack\" is in your inventory of assets, go to 16 to install it.",
+          "fr": "Si «Humanoid Creatures Pack» est dans votre inventaire d'assets, allez à 16 pour l'installer."
+        },
+        {
+          "en": "If \"Moon Base 2030\" is in your inventory of assets, go to 2 to install it.",
+          "fr": "Si «Moon Base 2030» est dans votre inventaire d'assets, allez à 2 pour l'installer."
+        },
+        {
+          "en": "To switch tasks, go to 14.",
+          "fr": "Pour changer de tâches, allez à 14."
+        }
+      ],
+      "end": false
+    },
+    {
+      "number": "9",
+      "text": {
+        "en": "Another day of work on <em>v r $4.99</em> is in the books. The project has pushed you to rethink the meaning of 3D assets, their status as art, and their relationship to value, context, technical constraints, the artists behind them, and more. Tomorrow is a new day and there will be many more assets to install and new ideas to add to your inventory.",
+        "fr": "Une autre journée de travail sur <em>v r $4.99</em> est bouclée. Le projet vous a amené à repenser la signification des <em>assets</em> 3D, leur statut en tant qu'art et leur rapport à la valeur, au contexte, les contraintes techniques, les artistes qui les ont créés, etc. Demain est un nouveau jour et il y aura beaucoup plus d'assets à installer et de nouvelles idées à ajouter à votre inventaire."
+      },
+      "options": [
+        {
+          "en": "To think about what you've done today, re-read your inventory of ideas.",
+          "fr": "Pour réfléchir à ce que vous avez fait aujourd'hui, relisez votre inventaire d'idées."
+        },
+        {
+          "en": "To view the reference list for this essay, go to 15.",
+          "fr": "Pour consulter la liste des références de cet essai, allez à 15."
+        }
+      ],
+      "end": true
+    },
+    {
+      "number": "10",
+      "text": {
+        "en": "Here is the \"Humanoid Creatures Pack\" that you installed earlier. You pause to admire the boundless energy these five ghouls throw into their dance. Opposite is another group of figures from \"Mythological Creatures Pack - Norse\" by Serhat Yucekaya (2020). The two groups directly confront each other like rival sports teams. The Norse creatures have no animations, totally impassive as the Humanoid Creatures flash their claws and pretend to run at them.",
+        "fr": "Voici le paquet de «Humanoid Creatures» que vous avez installé plus tôt. Vous vous arrêtez pour admirer l'énergie débordante que ces cinq goules déploient dans leur danse. En face, vous voyez un autre groupe de figures du «Mythological Creatures Pack - Norse» de Serhat Yucekaya (2020). Les deux groupes s'affrontent directement comme des équipes sportives rivales. Les créatures nordiques sont dépourvues d'animations, totalement impassibles alors que les créatures humanoïdes brandissent leurs griffes et feignent de leur foncer dessus."
+      },
+      "idea": {
+        "en": "all assets are in conversation with one another",
+        "fr": "tous les <em>assets</em> sont en conversation les uns avec les autres"
+      },
+      "options": [
+        {
+          "en": "Return to 5.",
+          "fr": "Retournez à 5."
+        }
+      ],
+      "end": false
+    },
+    {
+      "number": "11",
+      "text": {
+        "en": "You've been working on <em>v r $4.99</em> since mid-2021. In a nutshell it's an exhibition of 3D assets from the Unity Asset Store, each of which costs exactly $4.99 USD. It's part of a larger series of \"v r\" (virtual reality) experiences exploring intersections of art and play. Following <em>v r 3</em>, you'd become interested in how the fact that assets can cost real money shapes our perception of them as art objects. So, you're taking two examples from every 3D sub-category the Unity Asset Store offers, from dungeons to reptiles to space vehicles, building Noah's Asset Ark. By explicitly treating the assets as art (with a price) you're hoping to encourage players to reflect on and compare them. Curating all these works is its own kind of play, too, finding correspondences and contrasts that help to throw individual assets into relief.",
+        "fr": "Vous travaillez sur <em>v r $4.99</em> depuis la mi-2021. En bref, il s'agit d'une exposition d'<em>assets</em> 3D provenant de Unity Asset Store, chacun d'entre eux valant exactement 4,99$ USD. Elle fait partie d'une série plus vaste d'expériences «v r» (virtual reality / réalité virtuelle) qui explore les croisements entre l'art et le jeu. En suivant <em>v r 3</em>, on s'intéressera à la manière dont le fait d'attribuer un réel coût monétaire aux <em>assets</em> en façonne notre perception en tant qu'objets d'art. Vous prenez donc deux exemples de chaque sous-catégorie 3D que propose Unity Asset Store, des donjons aux reptiles en passant par les véhicules spatiaux, pour construire l'Arche d'<em>assets</em> de Noé. En traitant explicitement les <em>assets</em> comme de l'art (avec un prix), vous espérez encourager les joueurs à y réfléchir et à les comparer. Le commissariat de ces œuvres est également un jeu en soi, car il permet de trouver des correspondances et des contrastes qui contribuent à mettre en valeur les <em>assets</em> individuels."
+      },
+      "idea": {
+        "en": "game assets are art",
+        "fr": "des <em>assets</em> de jeu sont de l'art"
+      },
+      "options": [
+        {
+          "en": "To think further back to <em>v r 3</em>, go to 18.",
+          "fr": "Pour poursuivre la réflexion sur <em>v r 3</em>, allez à 18."
+        },
+        {
+          "en": "To get to work, go to 14.",
+          "fr": "Pour se mettre au travail, allez à 14."
+        }
+      ],
+      "end": false
+    },
+    {
+      "number": "12",
+      "text": {
+        "en": "As you reach the top of a dune you meet a seagull coming up the other side, its small feet paddling along on the sand. You stop in surprise and it stops too. It feels oddly magical to actually run into this living creature here in the middle of the desert. You turn and the seagull turns, you step back and it does too. You are each other.",
+        "fr": "En atteignant le sommet d'une dune, vous rencontrez une mouette qui remonte de l'autre côté, ses petites pattes pataugeant sur le sable. Surpris, vous vous arrêtez et elle s'arrête aussi. C'est étrangement magique de rencontrer cette créature vivante ici, en plein milieu du désert. Vous vous tournez et la mouette se tourne, vous reculez et elle fait de même. Vous êtes l'un et l'autre."
+      },
+      "idea": {
+        "en": "in an art game, you are also the art",
+        "fr": "dans un <em>art game</em>, vous êtes également l'art"
+      },
+      "options": [
+        {
+          "en": "Go to 5.",
+          "fr": "Allez à 5."
+        }
+      ],
+      "end": false
+    },
+    {
+      "number": "13",
+      "text": {
+        "en": "Like everything in this project, the desert around you is itself a 3D asset that cost $4.99. Formally titled \"Sahara Desert Landscape,\" it was made by Black Sun Productions (2016). You chose it out of an affinity to desert landscapes that comes in part from your engagement with Donald Judd's work in Marfa, Texas, but it has not been without its challenges. Finding the right spot for assets on the rolling dunes, whether a set of umbrellas or the Taj Mahal, hasn't proven easy and has led to solutions like pedestals for smaller objects or stairs leading up to the larger ones.",
+        "fr": "Comme tout dans ce projet, le désert qui vous entoure est lui-même un <em>asset</em> 3D qui a coûté 4,99$. Officiellement nommé «Sahara Desert Landscape», il a été réalisé par Black Sun Productions (2016). Vous l'avez choisi en raison d'une affinité avec les paysages désertiques qui vous vient en partie de votre intérêt pour le travail de Donald Judd à Marfa, au Texas, mais cela n'a pas été sans soulever des défis. Il n'a pas été facile de trouver le bon emplacement pour les <em>assets</em> sur les dunes ondulées, qu'il s'agisse d'un ensemble de parapluies ou du Taj Mahal, et cela a mené à des solutions telles que des piédestaux pour de plus petits objets ou des escaliers menant aux plus grands."
+      },
+      "idea": {
+        "en": "exhibiting art requires infrastructure",
+        "fr": "exposer de l'art nécessite de l'infrastructure"
+      },
+      "options": [
+        {
+          "en": "To return your attention to your surroundings, go to 5.",
+          "fr": "Pour ramener votre attention sur votre environnement, allez à 5."
+        }
+      ],
+      "end": false
+    },
+    {
+      "number": "14",
+      "text": {
+        "en": "You're sitting in front of your computer, a MacBook Air. You've got your browser open to the Unity Asset Store website and Unity (version 2021.2.0a19) open with the v r $4.99 project loaded. In a text editor your curation journal awaits your thoughts about the process of putting together an exhibition of 3D game assets in a desert.",
+        "fr": "Vous êtes assis devant votre ordinateur, un MacBook Air. Vous êtes sur le site web de Unity Asset Store et Unity (version 2021.2.0a19) où votre navigateur affiche le projet v r $4.99. Dans un éditeur de texte, votre journal de commissariat attend vos réflexions sur le processus de mise en place d'une exposition d'<em>assets</em> de jeux 3D dans un désert."
+      },
+      "options": [
+        {
+          "en": "To run the project and wander in the Sahara Desert, go to 5.",
+          "fr": "Pour lancer le projet et errer dans le désert du Sahara, allez à 5."
+        },
+        {
+          "en": "To look for an asset to buy on the Unity Asset Store, go to 19.",
+          "fr": "Pour rechercher un asset à acheter sur Unity Asset Store, allez à 19."
+        },
+        {
+          "en": "To install one of the assets you've already bought, go to 8.",
+          "fr": "Pour installer l'un des assets que vous avez déjà achetés, allez à 8."
+        },
+        {
+          "en": "To stop work for the day, go to 9.",
+          "fr": "Pour arrêter le travail pour la journée, allez à 9."
+        }
+      ],
+      "end": false
+    },
+    {
+      "number": "15",
+      "text": {
+        "en": "<h3>References</h3><ol><li>Barr, Pippin. 2017. <em>v r 3</em>. <a href=\"https://www.pippinbarr.com/v-r-3/info\">https://www.pippinbarr.com/v-r-3/info</a></li><li>Barr, Pippin. Forthcoming. <em>v r $4.99</em>. <a href=\"https://github.com/pippinbarr/v-r-4-99/info\">https://github.com/pippinbarr/v-r-4-99/info</a></li><li>Black Sun. 2016. Sahara Desert Landscape (v1.0). <a href=\"https://assetstore.unity.com/packages/3d/environments/landscapes/sahara-desert-landscape-72780\">https://assetstore.unity.com/packages/3d/environments/landscapes/sahara-desert-landscape-72780</a></li><li>Bugrimov, Maksim. 2020. Humanoid Creatures Pack (v1.1). <a href=\"https://assetstore.unity.com/packages/3d/characters/creatures/humanoid-creatures-pack-162689\">https://assetstore.unity.com/packages/3d/characters/creatures/humanoid-creatures-pack-162689</a></li><li>Janpec. 2019. Animal Pack Deluxe v2 (v1.0). <a href=\"https://assetstore.unity.com/packages/3d/characters/animals/animal-pack-deluxe-v2-144071\">https://assetstore.unity.com/packages/3d/characters/animals/animal-pack-deluxe-v2-144071</a></li><li>openplay. 2018. Vintage Refrigerator Type1 (v1.0). <a href=\"https://assetstore.unity.com/packages/3d/props/electronics/vintage-refrigerator-type1-132647\">https://assetstore.unity.com/packages/3d/props/electronics/vintage-refrigerator-type1-132647</a></li><li>Pritula, Evgeny. 2018. Moon Base 2030 (v1.0). <a href=\"https://assetstore.unity.com/packages/3d/environments/sci-fi/moon-base-2030-98937\">https://assetstore.unity.com/packages/3d/environments/sci-fi/moon-base-2030-98937</a></li><li>Suko, Junnichi. 2018. Seagull (Larus canus) (v1.0). <a href=\"https://assetstore.unity.com/packages/3d/characters/animals/birds/seagull-larus-canus-109558\">https://assetstore.unity.com/packages/3d/characters/animals/birds/seagull-larus-canus-109558</a></li><li>TheLaba. 2018. Low Poly Rigged Animals (v2.0). <a href=\"https://assetstore.unity.com/packages/3d/characters/animals/low-poly-rigged-animals-123656\">https://assetstore.unity.com/packages/3d/characters/animals/low-poly-rigged-animals-123656</a></li><li>Yucekaya, Serhat. 2020. Mythological Creatures Pack (v1.0). <a href=\"https://assetstore.unity.com/packages/3d/characters/creatures/mythological-creatures-pack-norse-173135\">https://assetstore.unity.com/packages/3d/characters/creatures/mythological-creatures-pack-norse-173135</a></li></ol>",
+        "fr": "<h3>Références</h3><ol><li>Barr, Pippin. 2017. <em>v r 3</em>. <a href=\"https://www.pippinbarr.com/v-r-3/info\">https://www.pippinbarr.com/v-r-3/info</a></li><li>Barr, Pippin. Sous presse. <em>v r $4.99</em>. <a href=\"https://github.com/pippinbarr/v-r-4-99/info\">https://github.com/pippinbarr/v-r-4-99/info</a></li><li>Black Sun. 2016. Sahara Desert Landscape (v1.0). <a href=\"https://assetstore.unity.com/packages/3d/environments/landscapes/sahara-desert-landscape-72780\">https://assetstore.unity.com/packages/3d/environments/landscapes/sahara-desert-landscape-72780</a></li><li>Bugrimov, Maksim. 2020. Humanoid Creatures Pack (v1.1). <a href=\"https://assetstore.unity.com/packages/3d/characters/creatures/humanoid-creatures-pack-162689\">https://assetstore.unity.com/packages/3d/characters/creatures/humanoid-creatures-pack-162689</a></li><li>Janpec. 2019. Animal Pack Deluxe v2 (v1.0). <a href=\"https://assetstore.unity.com/packages/3d/characters/animals/animal-pack-deluxe-v2-144071\">https://assetstore.unity.com/packages/3d/characters/animals/animal-pack-deluxe-v2-144071</a></li><li>openplay. 2018. Vintage Refrigerator Type1 (v1.0). <a href=\"https://assetstore.unity.com/packages/3d/props/electronics/vintage-refrigerator-type1-132647\">https://assetstore.unity.com/packages/3d/props/electronics/vintage-refrigerator-type1-132647</a></li><li>Pritula, Evgeny. 2018. Moon Base 2030 (v1.0). <a href=\"https://assetstore.unity.com/packages/3d/environments/sci-fi/moon-base-2030-98937\">https://assetstore.unity.com/packages/3d/environments/sci-fi/moon-base-2030-98937</a></li><li>Suko, Junnichi. 2018. Seagull (Larus canus) (v1.0). <a href=\"https://assetstore.unity.com/packages/3d/characters/animals/birds/seagull-larus-canus-109558\">https://assetstore.unity.com/packages/3d/characters/animals/birds/seagull-larus-canus-109558</a></li><li>TheLaba. 2018. Low Poly Rigged Animals (v2.0). <a href=\"https://assetstore.unity.com/packages/3d/characters/animals/low-poly-rigged-animals-123656\">https://assetstore.unity.com/packages/3d/characters/animals/low-poly-rigged-animals-123656</a></li><li>Yucekaya, Serhat. 2020. Mythological Creatures Pack (v1.0). <a href=\"https://assetstore.unity.com/packages/3d/characters/creatures/mythological-creatures-pack-norse-173135\">https://assetstore.unity.com/packages/3d/characters/creatures/mythological-creatures-pack-norse-173135</a></li></ol>"
+      },
+      "end": true
+    },
+    {
+      "number": "16",
+      "text": {
+        "en": "You arrange the humanoid creatures in a row much as in Bugrimov's video on the store page: why mess with perfection? To make sure visitors see them dance, you edit their Animation Controller to loop. While doing this, you're struck by the labels of their various animations: \"attack,\" \"get hit,\" \"dead,\" \"shout,\" and more. These assets want to be scary and dangerous, but here they are performing a light-hearted cabaret in your Sahara.",
+        "fr": "Vous disposez les créatures humanoïdes en rangée comme dans la vidéo de Bugrimov sur la page du magasin : pourquoi s'embêter avec la perfection ? Pour être sûr que les visiteurs les voient danser, vous réglez leur Animation Controller sur loop. Ce faisant, vous êtes surpris par les descriptifs de leurs diverses animations : «attaquer», «se faire frapper», «mort», «crier», etc. Ces <em>assets</em> cherchent à être effrayants et dangereux, mais ils jouent ici un léger spectacle de cabaret dans votre Sahara."
+      },
+      "idea": {
+        "en": "assets have intent, but you don't have to play along",
+        "fr": "les <em>assets</em> ont une intention, mais vous n'êtes pas obligé d'entrer dans le jeu"
+      },
+      "options": [
+        {
+          "en": "<span class=\"action\">Cross out \"Humanoid Creatures Pack\" on your inventory of assets, add 10 as a wandering destination in passage 5</span>, then go to 14.",
+          "fr": "<span class=\"action\">Biffez «Humanoid Creatures Pack» dans votre inventaire d'assets, ajoutez 10 comme destination d'errance au passage 5</span>, et allez à 14"
+        }
+      ],
+      "end": false
+    },
+    {
+      "number": "17",
+      "text": {
+        "en": "Climbing a dune, you see two columns of animals facing off along its ridgeline. To the left are the realistic, high-resolution denizens of \"Animal Pack Deluxe v2\" by Janpec (2019). Opposite them are the \"Low Poly Rigged Animals\" by TheLaba (2018), faceted like jewels and adorned with plain colours rather than textures. When you installed these two sets of assets, laboriously positioning every creature from African Elephant to Green Lizard, you'd been confronted with the vast importance of visual style: cartoony, low-poly, high resolution realism, and everything in between.",
+        "fr": "En grimpant sur une dune, vous voyez deux colonnes d'animaux qui se font face le long de sa ligne de crête. À gauche, les habitants réalistes et en haute résolution de «Animal Pack Deluxe v2» de Janpec (2019). En face d'eux, les «Low Poly Rigged Animals» de TheLaba (2018), facettés comme des bijoux et ornés de couleurs unies plutôt que de textures. Lorsque vous avez installé ces deux ensembles d'assets, en positionnant péniblement chaque créature, de l'Éléphant d'Afrique au Lézard vert, vous avez été confronté à l'importance considérable du style visuel : de très cartoon, <em>low-poly</em> à un réalisme en haute résolution, et toutes les variations entre les deux."
+      },
+      "idea": {
+        "en": "every asset belongs to an artistic tradition",
+        "fr": "chaque <em>asset</em> appartient à une tradition artistique"
+      },
+      "options": [
+        {
+          "en": "Return to 5.",
+          "fr": "Retournez à 5."
+        }
+      ],
+      "end": false
+    },
+    {
+      "number": "18",
+      "text": {
+        "en": "You made <em>v r 3</em> back in 2017. It's an exhibit of virtual water from the Unity Asset Store, all displayed in plinths inside artillery sheds that were a tribute to Donald Judd's 100 untitled works in mill aluminum (1982-1986) at the Chinati Foundation in Marfa, Texas. Making it was exciting because it allowed you and its players to directly compare different kinds of virtual water. Realistic versus cartoonish. Expensive versus free. Beautiful versus boring.",
+        "fr": "Vous avez réalisé <em>v r 3</em> en 2017. Il s'agit d'une exposition d'eau virtuelle provenant de Unity Asset Store, le tout présenté dans des plinthes à l'intérieur de hangars d'artillerie, en hommage aux 100 untitled works in mill aluminum (1982-1986) de Donald Judd à la Chinati Foundation de Marfa, au Texas. Sa réalisation était stimulante, car elle vous permettait, ainsi qu'aux joueurs, de comparer directement différents types d'eau virtuelle. Réaliste versus caricaturale. Coûteuse ou gratuite. Belle ou ennuyeuse."
+      },
+      "idea": {
+        "en": "comparisons reveal aesthetic categories",
+        "fr": "les comparaisons révèlent des catégories esthétiques"
+      },
+      "options": [
+        {
+          "en": "To snap back to reality, go to 14.",
+          "fr": "Pour revenir tout suite à la réalité, allez à 14."
+        }
+      ],
+      "end": false
+    },
+    {
+      "number": "19",
+      "text": {
+        "en": "You browse the Unity Asset Store for possible assets to include in the project. A couple of them really catch your eye.",
+        "fr": "Vous parcourez Unity Asset Store à la recherche d'<em>assets</em> à inclure dans le projet. Deux d'entre eux attirent vraiment votre attention."
+      },
+      "options": [
+        {
+          "en": "To look at the store page for \"Humanoid Creatures Pack,\" go to 4.",
+          "fr": "Pour consulter la page du magasin pour «Humanoid Creatures Pack», allez à 4."
+        },
+        {
+          "en": "To look at the store page for \"Moon Base 2030,\" go to 7.",
+          "fr": "Pour consulter la page du magasin pour «Moon Base 2030», allez à 7."
+        },
+        {
+          "en": "To switch tasks, go to 14.",
+          "fr": "Pour changer de tâches, allez à 14."
+        }
+      ],
+      "end": false
+    },
+    {
+      "number": "20",
+      "text": {
+        "en": "A row of three refrigerators rest on the sand, representatives of \"Vintage Refrigerator Type1\" by openplay (2018). The rightmost fridge has its doors open, doing its imaginary best to cool the imaginary heat of the desert. You're reminded of the many times there has been this kind of unintended but marked correspondence between the assets and the desert. Fridges, ruins, and sunbeds all laid out in the Sahara.",
+        "fr": "Une rangée de trois réfrigérateurs se trouve sur le sable, ceux-ci sont les représentants du «Vintage Refrigerator Type1» de openplay (2018). Les portes du réfrigérateur le plus à droite sont grandes ouvertes, et il fait «imaginairement» de son mieux pour refroidir la chaleur imaginaire du désert. Cela vous rappelle les nombreuses fois où il y a eu ce genre de correspondance involontaire mais marquée entre les assets et le désert. Des frigos, des ruines et des chaises longues, tous aménagés dans le Sahara."
+      },
+      "idea": {
+        "en": "assets combine forces to make new meanings",
+        "fr": "les <em>assets</em> joignent leurs forces pour créer de nouvelles significations"
+      },
+      "options": [
+        {
+          "en": "Return to 5.",
+          "fr": "Retour à 5."
+        }
+      ],
+      "end": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+body {
+  margin: auto;
+  width: 800px;
+  font-family: sans-serif;
+}
+
+.number {
+  background-color: lightgrey;
+}
+
+.action {
+  font-weight: bold;
+}
+
+.options {
+  list-style-type: circle;
+}
