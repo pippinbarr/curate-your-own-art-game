@@ -41,6 +41,8 @@ $.getJSON(`assets/data/data.json`)
 function loadPage(data) {
   $(`#title`)
     .text(data.title[lang]);
+  document.title = data.title[lang];
+  ''
 
   $(`#author`)
     .text(`${lang === `en` ? `By` : `Par`} ${data.author}`);
