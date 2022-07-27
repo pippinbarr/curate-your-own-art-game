@@ -50,9 +50,18 @@ function loadPage(data) {
 
   let passages = data.passages;
   for (let i = 0; i < passages.length; i++) {
+    // if (i === 14) continue;
     let p = passages[i];
     let $p = $(`<div>`)
       .addClass(`passage`);
+
+    if (p.image) {
+      $p.append(`<img src="assets/images/${p.image}">`);
+      $(`#passages`)
+        .append($p);
+      continue;
+    }
+
     $p.append(`<p class="number">${p.number}</p>`);
     $p.append(`<p class="text">${p.text[lang]}</p>`);
 

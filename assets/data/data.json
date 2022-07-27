@@ -24,6 +24,9 @@
       "end": false
     },
     {
+      "image": "sahara-desert.png"
+    },
+    {
       "number": "2",
       "text": {
         "en": "The moon base fits nicely at one edge of the desert, but there's a problem. The model has appealing interior spaces you see inspect via Unity's interface, but there's no way to get inside. The airlocks don't open, and the corridors have no solid floors: a player would just fall straight through. Without significant additional work to make the moon base \"habitable,\" most of the model will be impossible to see. It reminds you of the air conditioning ducts on the roof of the Super Store you installed, but at least you could see those from the top of a nearby dune. This Moon Base is a bust.",
@@ -84,6 +87,9 @@
         }
       ],
       "end": false
+    },
+    {
+      "image": "humanoid-creatures-pack.png"
     },
     {
       "number": "5",
@@ -242,6 +248,9 @@
       "end": false
     },
     {
+      "image": "seagull.png"
+    },
+    {
       "number": "13",
       "text": {
         "en": "Like everything in this project, the desert around you is itself a 3D asset that cost $4.99. Formally titled \"Sahara Desert Landscape,\" it was made by Black Sun Productions (2016). You chose it out of an affinity to desert landscapes that comes in part from your engagement with Donald Judd's work in Marfa, Texas, but it has not been without its challenges. Finding the right spot for assets on the rolling dunes, whether a set of umbrellas or the Taj Mahal, hasn't proven easy and has led to solutions like pedestals for smaller objects or stairs leading up to the larger ones.",
@@ -330,6 +339,9 @@
       "end": false
     },
     {
+      "image": "animal-packs.png"
+    },
+    {
       "number": "18",
       "text": {
         "en": "You made <em>v r 3</em> back in 2017. It's an exhibit of virtual water from the Unity Asset Store, all displayed in plinths inside artillery sheds that were a tribute to Donald Judd's 100 untitled works in mill aluminum (1982-1986) at the Chinati Foundation in Marfa, Texas. Making it was exciting because it allowed you and its players to directly compare different kinds of virtual water. Realistic versus cartoonish. Expensive versus free. Beautiful versus boring.",
@@ -386,6 +398,9 @@
         }
       ],
       "end": false
+    },
+    {
+      "image": "refrigerators.png"
     }
   ]
 }

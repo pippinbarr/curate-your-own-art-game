@@ -1,55 +1,67 @@
+:root {
+  font-size: 1em;
+}
 
+html {
+  /* font-size: 1rem; */
+}
 
 body {
-  font-family: Atkinson, sans-serif;
-  font-size: 1.25rem;
+  font-family: Atkinson, sans-serif; */
+  font-size: 1em;
   max-width: 60rem;
   margin: 0 auto;
   padding: 0rem 1rem 1rem 1rem;
-  line-height: 1.25em;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 nav {
   position: sticky;
   top: 0;
   background-color: white;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   border-bottom: 1px solid;
 }
 
-h1#title {
-  font-size: 2em;
-  float: left;
+img {
+  width: 100%;
 }
 
-h1#lang {
-  font-size: 2em;
-  float: right;
+#title-lang {
+  font-size: 2rem;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+h1 {
+  margin: 0;
 }
 
 .selected-lang {
   text-decoration: underline;
 }
 
-h2#author {
-  clear: both;
-  font-size: 1em;
+#author {
+  font-size: 100%;
   font-weight: normal;
-  /* margin-top: 0em; */
 }
 
 #passages {
-  margin-top: 4em;
+  margin-top: 4rem;
+  font-size: 1.25rem;
+  line-height: 1.25rem;
 }
 
 .passage {
-  margin-bottom: 3em;
+  margin-bottom: 3rem;
 }
 
 .number {
   background-color: lightgrey;
-  padding: 0.5em;
+  padding: 0.5rem;
   font-weight: bold;
 }
 
@@ -62,7 +74,7 @@ h2#author {
 }
 
 li + li {
-  margin-top: 0.5em;
+  margin-top: 0.5rem;
 }
 
 a {
