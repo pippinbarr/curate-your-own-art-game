@@ -1,11 +1,56 @@
+
+
 body {
-  margin: auto;
-  width: 800px;
-  font-family: sans-serif;
+  font-family: Atkinson, sans-serif;
+  font-size: 1.25rem;
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0rem 1rem 1rem 1rem;
+  line-height: 1.25em;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid;
+}
+
+h1#title {
+  margin: 0;
+  margin-top: 1em;
+  float: left;
+}
+
+h1#lang {
+  float: right;
+}
+
+.selected-lang {
+  text-decoration: underline;
+}
+
+h2#author {
+  clear: both;
+  font-size: 1em;
+  font-weight: normal;
+  margin-top: 1em;
+}
+
+#passages {
+  margin-top: 4em;
+}
+
+.passage {
+  margin-bottom: 3em;
 }
 
 .number {
   background-color: lightgrey;
+  padding: 0.5em;
+  font-weight: bold;
 }
 
 .action {
@@ -14,4 +59,12 @@ body {
 
 .options {
   list-style-type: circle;
+}
+
+li + li {
+  margin-top: 0.5em;
+}
+
+a {
+  color: inherit;
 }

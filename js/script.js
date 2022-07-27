@@ -13,6 +13,24 @@ let data = undefined;
 $.getJSON(`assets/data/data.json`)
   .done((loadedData) => {
     data = loadedData;
+    $(`#en`)
+      .on(`click`, () => {
+        lang = `en`;
+        $(`#en`)
+          .addClass(`selected-lang`);
+        $(`#fr`)
+          .removeClass(`selected-lang`);
+        loadPage(data);
+      });
+    $(`#fr`)
+      .on(`click`, () => {
+        lang = `fr`;
+        $(`#fr`)
+          .addClass(`selected-lang`);
+        $(`#en`)
+          .removeClass(`selected-lang`);
+        loadPage(data);
+      });
     loadPage(data);
   })
   .fail((error) => {
@@ -28,7 +46,7 @@ function loadPage(data) {
     .text(`By ${data.author}`);
 
   $(`#passages`)
-    .html();
+    .html(``);
 
   let passages = data.passages;
   for (let i = 0; i < passages.length; i++) {
