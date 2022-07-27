@@ -19,12 +19,12 @@ nav {
 }
 
 h1#title {
-  margin: 0;
-  margin-top: 1em;
+  font-size: 2em;
   float: left;
 }
 
 h1#lang {
+  font-size: 2em;
   float: right;
 }
 
@@ -36,7 +36,7 @@ h2#author {
   clear: both;
   font-size: 1em;
   font-weight: normal;
-  margin-top: 1em;
+  /* margin-top: 0em; */
 }
 
 #passages {

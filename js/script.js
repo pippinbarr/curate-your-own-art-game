@@ -43,7 +43,7 @@ function loadPage(data) {
     .text(data.title[lang]);
 
   $(`#author`)
-    .text(`By ${data.author}`);
+    .text(`${lang === `en` ? `By` : `Par`} ${data.author}`);
 
   $(`#passages`)
     .html(``);
