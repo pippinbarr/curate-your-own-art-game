@@ -6,43 +6,34 @@ An online version of my essay from the book via Sporobole.
 */
 
 "use strict";
-
 let lang = `en`;
-let data = undefined;
+let data;
 
 $.getJSON(`assets/data/data.json`)
   .done((loadedData) => {
     data = loadedData;
-    $(`#en`)
-      .on(`click`, () => {
-        lang = `en`;
-        $(`#en`)
-          .addClass(`selected-lang`);
-        $(`#fr`)
-          .removeClass(`selected-lang`);
-        loadPage(data);
-      });
-    $(`#fr`)
-      .on(`click`, () => {
-        lang = `fr`;
-        $(`#fr`)
-          .addClass(`selected-lang`);
-        $(`#en`)
-          .removeClass(`selected-lang`);
-        loadPage(data);
-      });
     loadPage(data);
   })
   .fail((error) => {
     console.error("Aw nuts.")
-  })
+  });
 
 
 function loadPage(data) {
   $(`#title`)
     .text(data.title[lang]);
   document.title = data.title[lang];
-  ''
+
+  $(`#ideas-title`)
+    .text(lang === `en` ? `Inventory of ideas` : `Inventaire d'idées`);
+  $(`#assets-title`)
+    .text(lang === `en` ? `Inventory of assets` : `Inventaire d'assets`);
+
+  $(`#ideas-close`)
+    .on(`click`, closeIdeas);
+
+  $(`#assets-close`)
+    .on(`click`, closeAssets);
 
   $(`#author`)
     .text(`${lang === `en` ? `By` : `Par`} ${data.author}`);
@@ -68,11 +59,24 @@ function loadPage(data) {
     $p.append(`<p class="text">${p.text[lang]}</p>`);
 
     if (p.idea) {
-      if (lang === `en`) {
-        $p.append(`<p class="idea"><span class="action">Add "${p.idea[lang]}" to your inventory of ideas.</span></p>`);
-      } else if (lang === `fr`) {
-        $p.append(`<p class="idea"><span class="action">Ajoutez "${p.idea[lang]}" à votre inventaire d’idées.</span></p>`);
+      let idea = {
+        en: p.idea[`en`],
+        fr: p.idea[`fr`]
       }
+      let $action;
+      if (lang === `en`) {
+        $action = $(`<p class="idea"><span class="action">Add "${idea.en}" to your inventory of ideas.</span></p>`);
+      } else if (lang === `fr`) {
+        $action = $(`<p class="idea"><span class="action">Ajoutez "${idea.fr}" à votre inventaire d’idées.</span></p>`);
+      }
+      $action.one(`click`, function () {
+        $action.addClass(`done`);
+        let $idea = $(`<li>${lang === 'en' ? idea.en : idea.fr}</li>`);
+        $(`#idea-list`)
+          .append($idea);
+        openIdeas();
+      });
+      $p.append($action);
     }
 
     if (p.options) {
@@ -80,8 +84,19 @@ function loadPage(data) {
         .addClass("options")
       for (let j = 0; j < p.options.length; j++) {
         let o = p.options[j];
+
+        // Respond to adding an asset
+        if (o[`en`].match(`to your inventory of assets`)) {
+          if (lang === `en`) {
+            o[lang] = o[lang].replace(/add "(.*)" to your inventory of assets/, `<span class="asset" asset-name="$1">Add "$1" to your inventory of assets</span>`);
+          } else {
+            o[lang] = o[lang].replace(/ajoutez «(.*)» à votre inventaire d'assets/, `<span class="asset" asset-name="$1">ajoutez «$1» à votre inventaire d'assets</span>`);
+          }
+        }
+
         // Add links
         o[lang] = o[lang].replace(/(à|entre|to|,|of)\s(\d+)/g, '$1 <span class="jump" goto="$2">$2</span>');
+
         // Add the actual thing
         $options.append(`<li>${o[lang]}</li>`);
       }
@@ -108,4 +123,36 @@ function loadPage(data) {
         window.scrollTo(0, y);
       });
   }
+
+  $(`.asset`)
+    .one(`click`, function () {
+      let asset = $(this)
+        .attr(`asset-name`);
+      let $li = $(`<li>${asset}</li>`);
+      $(`#asset-list`)
+        .append($li);
+      $(this)
+        .addClass(`done`);
+      openAssets();
+    });
+}
+
+function openIdeas() {
+  $(`#ideas`)
+    .show();
+}
+
+function closeIdeas() {
+  $(`#ideas`)
+    .hide();
+}
+
+function openAssets() {
+  $(`#assets`)
+    .show();
+}
+
+function closeAssets() {
+  $(`#assets`)
+    .hide();
 }

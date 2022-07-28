@@ -26,6 +26,35 @@ nav {
   border-bottom: 1px solid;
 }
 
+.notepad {
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: fixed;
+  z-index: 1000;
+  height: 100vh;
+  max-width: 60rem;
+  width: 100%;
+  display: none;
+}
+
+.notepad-title {
+  font-size: 2rem;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.notepad-notes {
+  max-width: 60rem;
+  width: 80%;
+  height: 50vh;
+}
+
+.notepad-close {
+  text-decoration: underline;
+}
+
 img {
   width: 100%;
 }
@@ -96,6 +125,18 @@ h1 {
 
 .jump:hover {
   cursor: pointer;
+}
+
+.idea {
+  text-decoration: underline;
+}
+
+.asset {
+  text-decoration: underline;
+}
+
+.done {
+  text-decoration: line-through;
 }
 
 li + li {
