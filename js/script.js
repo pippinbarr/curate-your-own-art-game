@@ -64,7 +64,7 @@ function loadPage(data) {
       continue;
     }
 
-    $p.append(`<p class="number">${p.number}</p>`);
+    $p.append(`<p id="${p.number}" class="number">${p.number}</p>`);
     $p.append(`<p class="text">${p.text[lang]}</p>`);
 
     if (p.idea) {
@@ -80,6 +80,9 @@ function loadPage(data) {
         .addClass("options")
       for (let j = 0; j < p.options.length; j++) {
         let o = p.options[j];
+        // Add links
+        o[lang] = o[lang].replace(/(to|,|of)\s(\d+)/g, '$1 <span class="jump" goto="$2">$2</span>');
+        // Add the actual thing
         $options.append(`<li>${o[lang]}</li>`);
       }
       $p.append($options);
@@ -92,5 +95,17 @@ function loadPage(data) {
     $(`#passages`)
       .append($p);
 
+    $(`.jump`)
+      .on(`click`, function () {
+        let to = $(this)
+          .attr(`goto`);
+        let y = $(`#${to}`)
+          .position()
+          .top;
+        let navHeight = $(`nav`)
+          .height();
+        y -= navHeight;
+        window.scrollTo(0, y);
+      });
   }
 }

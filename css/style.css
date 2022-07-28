@@ -4,6 +4,7 @@
 
 html {
   /* font-size: 1rem; */
+  scroll-behavior: smooth;
 }
 
 body {
@@ -52,6 +53,10 @@ h1 {
   height: 50vh;
 }
 
+#lang span:not(.selected-lang):hover {
+  cursor: pointer;
+}
+
 .selected-lang {
   text-decoration: underline;
 }
@@ -83,6 +88,14 @@ h1 {
 
 .options {
   list-style-type: circle;
+}
+
+.jump {
+  text-decoration: underline;
+}
+
+.jump:hover {
+  cursor: pointer;
 }
 
 li + li {
