@@ -81,7 +81,7 @@ function loadPage(data) {
       for (let j = 0; j < p.options.length; j++) {
         let o = p.options[j];
         // Add links
-        o[lang] = o[lang].replace(/(to|,|of)\s(\d+)/g, '$1 <span class="jump" goto="$2">$2</span>');
+        o[lang] = o[lang].replace(/(à|entre|to|,|of)\s(\d+)/g, '$1 <span class="jump" goto="$2">$2</span>');
         // Add the actual thing
         $options.append(`<li>${o[lang]}</li>`);
       }
