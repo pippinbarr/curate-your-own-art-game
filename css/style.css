@@ -1,4 +1,4 @@
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 480px) {
   :root {
     font-size: 2em;
     text-size-adjust: none;
@@ -6,7 +6,7 @@
   }
 }
 
-@media screen and (min-width: 1001px) {
+@media screen and (min-width: 481px) {
   :root {
     font-size: 1.2em;
     text-size-adjust: none;
@@ -88,6 +88,7 @@ img {
 
 .action {
   font-weight: bold;
+  text-decoration: underline;
 }
 
 .options {

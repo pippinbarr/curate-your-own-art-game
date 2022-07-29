@@ -107,7 +107,7 @@
           "fr": "Pour observer le désert lui-même, allez à 13."
         },
         {
-          "en": "  To wander the desert, go to one of 3, 17, 20.",
+          "en": "To wander the desert, go to one of 3, 17, 20.",
           "fr": "Pour parcourir le désert, faites un choix entre 3, 17, 20."
         },
         {
@@ -322,8 +322,8 @@
       },
       "options": [
         {
-          "en": "<span class=\"action\">Cross out \"Humanoid Creatures Pack\" on your inventory of assets, add 10 as a wandering destination in passage 5</span>, then go to 14.",
-          "fr": "<span class=\"action\">Biffez «Humanoid Creatures Pack» dans votre inventaire d'assets, ajoutez 10 comme destination d'errance au passage 5</span>, et allez à 14"
+          "en": "<span class=\"action\"><span id=\"add-10\">Add 10 as a wandering destination in passage 5</span></span>, <span id=\"after-10\">then go to 14</span>.",
+          "fr": "<span class=\"action\"><span id=\"add-10\">Ajoutez 10 comme destination d'errance au passage 5</span></span>, <span id=\"after-10\">et allez à 14</span>"
         }
       ],
       "end": false

@@ -184,6 +184,42 @@ function loadPage(data) {
 
       openAssets();
     });
+
+  $(`#after-10`)
+    .addClass(`disabled`);
+
+  $(`#add-10`)
+    .one(`click`, function () {
+      $(`#after-10`)
+        .removeClass(`disabled`);
+      $(this)
+        .addClass(`done`);
+      $(`#5 ~ ul li`)
+        .each(function () {
+          if ($(this)
+            .text()
+            .includes(`3, 17, 20`)) {
+            let $jump = $(`<span class="jump">10</span>`);
+            $jump.on(`click`, function () {
+              let y = $(`#10`)
+                .position()
+                .top;
+              let navHeight = $(`nav`)
+                .height();
+              y -= navHeight;
+              window.scrollTo(0, y);
+            });
+            $(this)
+              .append(` `)
+              .append($jump)
+              .append(`.`);
+          }
+        });
+    });
+}
+
+function addJumps($element) {
+
 }
 
 function openIdeas() {
