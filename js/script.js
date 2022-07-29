@@ -6,7 +6,14 @@ An online version of my essay from the book via Sporobole.
 */
 
 "use strict";
-let lang = `en`;
+
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+
+let lang = urlParams.get(`lang`);
+if (lang !== `en` && lang !== `fr`) {
+  lang = `en`;
+}
 let data;
 
 $.getJSON(`assets/data/data.json`)
