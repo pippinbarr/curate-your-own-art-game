@@ -9,7 +9,7 @@
       "number": "1",
       "text": {
         "en": "You are Pippin Barr, an experimental game designer who works as a Professor of Computation Arts at Concordia University. You're interested in thinking about how games express ideas, even about themselves! Lately, you've started a project in Unity called <em>v r $4.99</em>, an exhibition of videogame art assets in the Sahara Desert. You're buying assets from the Unity Asset Store, installing them into the desert landscape, and reflecting on what it all means. On a piece of paper beside you are two lists, an \"<span class=\"action\" onclick=\"openIdeas();\">inventory of ideas</span>\" and an \"\"<span class=\"action\" onclick=\"openAssets();\">inventory of assets</span>,\" so that you can keep track of today's work.",
-        "fr": "Vous êtes Pippin Barr, un concepteur de jeux expérimentaux qui travaille comme professeur d'arts numériques à l'Université Concordia. Vous souhaitez réfléchir à la façon dont les jeux expriment des idées, même sur eux-mêmes ! Dernièrement, vous avez lancé un projet dans Unity intitulé v r $4.99, une exposition d'assets de jeux vidéo dans le désert du Sahara. Vous achetez des assets sur Unity Asset Store, vous les installez dans le paysage désertique et vous réfléchissez à ce que tout cela signifie. Sur une feuille de papier à côté de vous se trouvent deux listes, un «<span class=\"action\" onclick=\"openIdeas();\">inventaire d'idées</span>» et un «<span class=\"action\" onclick=\"openAssets();\">inventaire d'assets</span>», afin que vous puissiez suivre le travail de la journée."
+        "fr": "Vous êtes Pippin Barr, un concepteur de jeux expérimentaux qui travaille comme professeur d'arts numériques à l'Université Concordia. Vous souhaitez réfléchir à la façon dont les jeux expriment des idées, même sur eux-mêmes ! Dernièrement, vous avez lancé un projet dans Unity intitulé v r $4.99, une exposition d'assets de jeux vidéo dans le désert du Sahara. Vous achetez des assets sur Unity Asset Store, vous les installez dans le paysage désertique et vous réfléchissez à ce que tout cela signifie. Sur une feuille de papier à côté de vous se trouvent deux listes, un «<span class=\"action\" onclick=\"openIdeas();\">inventaire d'idées</span>» et un «<span class=\"action\" onclick=\"openAssets();\">inventaire d'<em>assets</em></span>», afin que vous puissiez suivre le travail de la journée."
       },
       "options": [
         {
@@ -78,8 +78,12 @@
           "fr": "Pour enquêter davantage sur Maksim Bugrimov, allez à 6."
         },
         {
-          "en": "To buy the pack, <span class=\"action\">add \"Humanoid Creatures Pack\" to your inventory of assets, cross out this option</span>, then go to 19.",
-          "fr": "Pour acheter le paquet, <span class=\"action\">ajoutez «Humanoid Creatures Pack» à vote inventaire d'<em>assets</em>, biffer cette option</span>, puis passez à 19"
+          "en": "To buy the pack, <span class=\"action\">add \"Humanoid Creatures Pack\" to your inventory of assets</span>.",
+          "fr": "Pour acheter le paquet, <span class=\"action\">ajoutez «Humanoid Creatures Pack» à vote inventaire d'<em>assets</em></span>"
+        },
+        {
+          "en": "To look for another asset to buy on the Unity Asset Store, go to 19.",
+          "fr": "Pour rechercher un autre asset à acheter sur Unity Asset Store, allez à 19."
         },
         {
           "en": "To switch tasks, go to 14.",
@@ -139,8 +143,12 @@
       },
       "options": [
         {
-          "en": "To buy the pack, <span class=\"action\">add \"Moon Base 2030\" to your inventory of assets, cross out this option</span>, then go to 19.",
-          "fr": "Pour acheter le paquet, <span class=\"action\">ajoutez «Moon Base 2030» à votre inventaire d'assets, biffer cette option</span>, et allez à 19."
+          "en": "To buy the pack, <span class=\"action\">add \"Moon Base 2030\" to your inventory of assets</span>.",
+          "fr": "Pour acheter le paquet, <span class=\"action\">ajoutez «Moon Base 2030» à votre inventaire d'assets</span>."
+        },
+        {
+          "en": "To look for another asset to buy on the Unity Asset Store, go to 19.",
+          "fr": "Pour rechercher un autre asset à acheter sur Unity Asset Store, allez à 19."
         },
         {
           "en": "To switch tasks, go to 14.",

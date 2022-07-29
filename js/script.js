@@ -6,7 +6,7 @@ An online version of my essay from the book via Sporobole.
 */
 
 "use strict";
-let lang = `fr`;
+let lang = `en`;
 let data;
 
 $.getJSON(`assets/data/data.json`)
@@ -27,7 +27,7 @@ function loadPage(data) {
   $(`#ideas-title, #ideas-menu`)
     .text(lang === `en` ? `Inventory of ideas` : `Inventaire d'idées`);
   $(`#assets-title, #assets-menu`)
-    .text(lang === `en` ? `Inventory of assets` : `Inventaire d'assets`);
+    .html(lang === `en` ? `Inventory of assets` : `Inventaire d'<em>assets</em>`);
 
   $(`#ideas-menu`)
     .on(`click`, openIdeas);
@@ -102,8 +102,18 @@ function loadPage(data) {
         // Add links
         o[lang] = o[lang].replace(/(à|entre|to|,|of)\s(\d+)/g, '$1 <span class="jump" goto="$2">$2</span>');
 
+        let $li = $(`<li>${o[lang]}</li>`);
+
+        if (o[`en`].includes(`If "Humanoid Creatures Pack"`)) {
+          $li.attr(`id`, `install-humanoid-creatures-pack`);
+          $li.addClass(`disabled`);
+        } else if (o[`en`].includes(`If "Moon Base 2030"`)) {
+          $li.attr(`id`, `install-moon-base-2030`);
+          $li.addClass(`disabled`);
+        }
+
         // Add the actual thing
-        $options.append(`<li>${o[lang]}</li>`);
+        $options.append($li);
       }
       $p.append($options);
     }
@@ -119,6 +129,32 @@ function loadPage(data) {
       .on(`click`, function () {
         let to = $(this)
           .attr(`goto`);
+        if (to === `2`) {
+          $(`#install-moon-base-2030`)
+            .addClass(`disabled`);
+          $(`#asset-list li`)
+            .each(function () {
+              if ($(this)
+                .text()
+                .includes(`Moon`)) {
+                $(this)
+                  .remove();
+              }
+            });
+        } else if (to === `16`) {
+          $(`#install-humanoid-creatures-pack`)
+            .addClass(`disabled`);
+          $(`#asset-list li`)
+            .each(function () {
+              if ($(this)
+                .text()
+                .includes(`Humanoid`)) {
+                $(this)
+                  .remove();
+              }
+            });
+
+        }
         let y = $(`#${to}`)
           .position()
           .top;
@@ -138,6 +174,14 @@ function loadPage(data) {
         .append($li);
       $(this)
         .addClass(`done`);
+      if (asset.includes(`Humanoid`)) {
+        $(`#install-humanoid-creatures-pack`)
+          .removeClass(`disabled`);
+      } else if (asset.includes(`Moon`)) {
+        $(`#install-moon-base-2030`)
+          .removeClass(`disabled`);
+      }
+
       openAssets();
     });
 }

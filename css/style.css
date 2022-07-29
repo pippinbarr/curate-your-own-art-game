@@ -94,6 +94,11 @@ img {
   list-style-type: circle;
 }
 
+.disabled {
+  color: lightgrey;
+  pointer-events: none;
+}
+
 .jump {
   text-decoration: underline;
 }
