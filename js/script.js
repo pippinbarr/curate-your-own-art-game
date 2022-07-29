@@ -6,7 +6,7 @@ An online version of my essay from the book via Sporobole.
 */
 
 "use strict";
-let lang = `en`;
+let lang = `fr`;
 let data;
 
 $.getJSON(`assets/data/data.json`)
@@ -24,10 +24,15 @@ function loadPage(data) {
     .text(data.title[lang]);
   document.title = data.title[lang];
 
-  $(`#ideas-title`)
+  $(`#ideas-title, #ideas-menu`)
     .text(lang === `en` ? `Inventory of ideas` : `Inventaire d'idées`);
-  $(`#assets-title`)
+  $(`#assets-title, #assets-menu`)
     .text(lang === `en` ? `Inventory of assets` : `Inventaire d'assets`);
+
+  $(`#ideas-menu`)
+    .on(`click`, openIdeas);
+  $(`#assets-menu`)
+    .on(`click`, openAssets);
 
   $(`#ideas-close`)
     .on(`click`, closeIdeas);
