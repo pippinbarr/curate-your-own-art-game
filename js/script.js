@@ -126,7 +126,7 @@ function loadPage(data) {
     }
 
     if (p.end) {
-      $p.append(`<p><span class="action">${lang === `end` ? `END` : `FIN`}</span></p>`)
+      $p.append(`<p><span class="end">${lang === `en` ? `END` : `FIN`}</span></p>`)
     }
 
     $(`#passages`)
@@ -145,7 +145,7 @@ function loadPage(data) {
                 .text()
                 .includes(`Moon`)) {
                 $(this)
-                  .remove();
+                  .addClass(`done`);
               }
             });
         } else if (to === `16`) {
@@ -157,7 +157,7 @@ function loadPage(data) {
                 .text()
                 .includes(`Humanoid`)) {
                 $(this)
-                  .remove();
+                  .addClass(`done`);
               }
             });
 

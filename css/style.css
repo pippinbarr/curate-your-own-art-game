@@ -96,7 +96,7 @@ img {
 }
 
 .disabled {
-  color: lightgrey;
+  color: grey;
   pointer-events: none;
 }
 
@@ -118,6 +118,10 @@ img {
 
 .done {
   text-decoration: line-through;
+}
+
+.end {
+  font-weight: bold;
 }
 
 li + li {

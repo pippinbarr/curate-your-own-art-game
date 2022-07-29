@@ -187,8 +187,8 @@
       },
       "options": [
         {
-          "en": "To think about what you've done today, re-read your inventory of ideas.",
-          "fr": "Pour réfléchir à ce que vous avez fait aujourd'hui, relisez votre inventaire d'idées."
+          "en": "To think about what you've done today, re-read your <span class=\"action\" onclick=\"openIdeas();\">inventory of ideas</span>.",
+          "fr": "Pour réfléchir à ce que vous avez fait aujourd'hui, relisez votre <span class=\"action\" onclick=\"openIdeas();\">inventaire d'idées</span>."
         },
         {
           "en": "To view the reference list for this essay, go to 15.",
