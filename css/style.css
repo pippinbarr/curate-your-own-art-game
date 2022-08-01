@@ -1,4 +1,4 @@
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 567px) {
   :root {
     font-size: 2em;
     text-size-adjust: none;
@@ -6,13 +6,19 @@
   }
 }
 
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 992px) {
   :root {
     font-size: 1.2em;
     text-size-adjust: none;
     --width: 50rem;
   }
 }
+
+/* :root {
+  font-size: 1.2em;
+  text-size-adjust: none;
+  --width: 50rem;
+} */
 
 
 html {
