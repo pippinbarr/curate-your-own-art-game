@@ -255,16 +255,14 @@ function closeAssets() {
 
 // Should this be in kiosk mode? (e.g. resetting)
 function setupKiosk() {
-  console.log(`setupKiosk`)
-
-
   let timeout = parseInt(urlParams.get(`timeout`));
   let kioskTimer;
   if (!isNaN(timeout)) {
     resetKioskTimer();
+
     document.getElementById(`passages`).scrollTo(0, 0);
     document.addEventListener(`click`, resetKioskTimer);
-    document.addEventListener(`mousemoved`, resetKioskTimer);
+    document.addEventListener(`mousemove`, resetKioskTimer);
     document.addEventListener(`touchstart`, resetKioskTimer);
     document.addEventListener(`scroll`, resetKioskTimer);
   }
