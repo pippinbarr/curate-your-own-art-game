@@ -14,12 +14,15 @@ let lang = urlParams.get(`lang`);
 if (lang !== `en` && lang !== `fr`) {
   lang = `en`;
 }
+
 let data;
 
 $.getJSON(`assets/data/data.json`)
   .done((loadedData) => {
     data = loadedData;
     loadPage(data);
+
+    setupKiosk();
   })
   .fail((error) => {
     console.error("Aw nuts.")
@@ -247,4 +250,43 @@ function openAssets() {
 function closeAssets() {
   $(`#assets`)
     .hide();
+}
+
+
+// Should this be in kiosk mode? (e.g. resetting)
+function setupKiosk() {
+  console.log(`setupKiosk`)
+
+
+  let timeout = parseInt(urlParams.get(`timeout`));
+  let kioskTimer;
+  if (!isNaN(timeout)) {
+    resetKioskTimer();
+    document.getElementById(`passages`).scrollTo(0, 0);
+    document.addEventListener(`click`, resetKioskTimer);
+    document.addEventListener(`mousemoved`, resetKioskTimer);
+    document.addEventListener(`touchstart`, resetKioskTimer);
+    document.addEventListener(`scroll`, resetKioskTimer);
+  }
+
+  function resetKioskTimer() {
+    clearTimeout(kioskTimer);
+    kioskTimer = setTimeout(() => {
+      reset();
+    }, timeout * 1000);
+  }
+
+  $(`#reset`).on(`click`, () => {
+    reset();
+  });
+
+  function reset() {
+    window.scrollTo({
+      top: 0,
+      behavior: `auto`
+    });
+    setTimeout(() => {
+      location.reload();
+    }, 1000)
+  }
 }
