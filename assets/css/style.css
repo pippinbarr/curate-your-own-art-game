@@ -1,7 +1,3 @@
 @import "{{ site.theme }}";
 
 @import url("https://pippinbarr.com/css/style.css");
-
-a:visited {
-    color: black;
-}

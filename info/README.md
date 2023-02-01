@@ -1,6 +1,6 @@
 # *Curate Your Own Art Game*
 
-![](images/curate-your-own-art-game-banner.png)
+![A passage from Curate Your Own Art Game](images/curate-your-own-art-game-banner.png)
 
 ## [Play Online (English)](https://www.pippinbarr.com/curate-your-own-art-game/?lang=en) (desktop and mobile)
 
