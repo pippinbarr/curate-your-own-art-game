@@ -27,7 +27,7 @@ html {
 }
 
 body {
-  font-family: Atkinson, sans-serif; */
+  font-family: Atkinson, sans-serif;
   font-size: 1em;
   max-width: var(--width);
   margin: 0 auto;
@@ -130,7 +130,7 @@ img {
   font-weight: bold;
 }
 
-li + li {
+li+li {
   margin-top: 1em;
 }
 
