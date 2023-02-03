@@ -105,7 +105,7 @@ function loadPage(data) {
           if (lang === `en`) {
             o[lang] = o[lang].replace(/add "(.*)" to your inventory of assets/, `<span class="asset" asset-name="$1">Add "$1" to your inventory of assets</span>`);
           } else {
-            o[lang] = o[lang].replace(/ajoutez «(.*)» à votre inventaire d'assets/, `<span class="asset" asset-name="$1">ajoutez «$1» à votre inventaire d'assets</span>`);
+            o[lang] = o[lang].replace(/ajoutez «(.*)» à votre inventaire d'assets/, `<span class="asset" asset-name="$1">ajoutez «$1» à votre inventaire d'<em>assets</em></span>`);
           }
         }
 
